@@ -5,5 +5,7 @@ console: console.c
 
 processor: processor.c
 	gcc -o processor processor.c
-
+run:
+	./console &
+	./processor
 
